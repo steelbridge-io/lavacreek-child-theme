@@ -30,9 +30,6 @@ require_once( 'library/navigation.php' );
 require_once( 'library/class-foundationpress-top-bar-walker.php' );
 require_once( 'library/class-foundationpress-mobile-walker.php' );
 
-/** Create widget areas in sidebar and footer */
-require_once( 'library/widget-areas.php' );
-
 /** Return entry meta information for posts */
 require_once( 'library/entry-meta.php' );
 
