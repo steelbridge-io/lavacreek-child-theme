@@ -10,9 +10,6 @@
   add_action( 'wp_enqueue_scripts', 'lava_creek_enqueue_styles' );
   function lava_creek_enqueue_styles() {
 
-    $parent_style = 'parent-style';
-    $parent_script = 'parent-script';
-
     wp_enqueue_style( 'child-style',get_stylesheet_directory_uri() . '/style.css', array(), '1.0.0' );
   }
 
