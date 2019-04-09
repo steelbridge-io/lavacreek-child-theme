@@ -13,20 +13,26 @@
 
     - Footer
 */
+
+
 /* Footer
 --------------------- ****/
-#footer p,
-#footer h1,
-#footer h2,
-#footer h3,
-#footer h4,
-#footer h5 {
-  color: #fff; }
-#footer .footer-container.container-flex {
-  display: flex;
-  justify-content: center;
-  align-content: center; }
-#footer section.widget.widget_search {
-  align-self: center; }
+#footer {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #fff;
+  }
+  .footer-container.container-flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  section.widget.widget_search {
+    align-self: center;
+  }
+}
 
-/*# sourceMappingURL=style.css.map */

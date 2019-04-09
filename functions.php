@@ -7,13 +7,6 @@
    * Functions for Lava Creek Child Theme
    */
 
-  add_action( 'wp_enqueue_scripts', 'lava_creek_enqueue_styles' );
-  function lava_creek_enqueue_styles() {
-
-    wp_enqueue_style( 'child-style',get_stylesheet_directory_uri() . '/style.css', array(), '1.0.0' );
-  }
-
-
 /** Various clean up functions */
 require_once( 'library/cleanup.php' );
 
