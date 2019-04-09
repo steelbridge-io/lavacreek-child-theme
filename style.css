@@ -12,6 +12,7 @@
  Text Domain:  lava-creek-child
 
     - Footer
+    - Widgets
 */
 /* Footer
 --------------------- ****/
@@ -28,5 +29,16 @@
   align-content: center; }
 #footer section.widget.widget_search {
   align-self: center; }
+
+/* Widgets
+--------------------- ****/
+.image-overlay-content h1,
+.image-overlay-content h2,
+.image-overlay-content h3,
+.image-overlay-content h4,
+.image-overlay-content h5,
+.image-overlay-content p,
+.image-overlay-content strong {
+  color: #f5f5f5; }
 
 /*# sourceMappingURL=style.css.map */
