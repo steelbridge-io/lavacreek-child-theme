@@ -43,7 +43,7 @@ if ( ! function_exists( 'foundationpress_top_bar_r' ) ) {
 			array(
 				'container'      => false,
 				//'menu_class'     => 'dropdown menu',
-        'menu_class'     => 'align-center sticky-shrinknav-menu dropdown menu',
+        'menu_class'     => 'align-right sticky-shrinknav-menu dropdown menu',
 				'items_wrap'     => '<ul id="%1$s" class="%2$s desktop-menu" data-disable-hover="true" data-dropdown-menu>%3$s</ul>',
 				'theme_location' => 'top-bar-r',
 				'depth'          => 3,
